@@ -13,3 +13,7 @@ services:
       - "3000:3000"
     depends_on:
       - db
+    environment:
+      - DB_HOST=db
+      - CLIENT_ID=${CLIENT_ID}
+      - CLIENT_SECRET=${CLIENT_SECRET}
