@@ -1,0 +1,7 @@
+<div class="picture-title">
+  <h1><b> <%= @user.username %> </b></h1>
+</div>
+
+<% for media_item in @client.user_recent_media %>
+  <div style='float:left;'><img src= <%= media_item.images.thumbnail.url %> ><br/></div>
+<% end %>

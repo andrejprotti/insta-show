@@ -248,6 +248,26 @@ input {
 .dodo {
 }
 
+.picture-title {
+  h1 {
+    font-size: 48px;
+    color: $main-color;
+    padding-left: 30px;
+    transform: translate(-60%, -50%);
+    position: absolute;
+    top: 1%;
+    left: 50%;
+  }
+
+  b {
+  }
+
+  .logo-dashboard {
+    height: 16px;
+    width: 16px;
+  }
+}
+
 .project-title {
   h1 {
     font-size: 48px;
@@ -263,8 +283,8 @@ input {
   }
 
   .logo-dashboard {
-    height: 160px;
-    width: 160px;
+    height: 16px;
+    width: 16px;
   }
 }
 
@@ -274,6 +294,14 @@ input {
   transform: translate(-50%, -50%);
   position: absolute;
   top: 50%;
+  left: 50%;
+}
+
+.show-pictures {
+  margin: 0 auto;
+  transform: translate(-60%, -50%);
+  position: absolute;
+  top: 40%;
   left: 50%;
 }
 
