@@ -3,5 +3,8 @@
 </div>
 
 <% for media_item in @client.user_recent_media %>
-  <div style='float:left;'><img src= <%= media_item.images.thumbnail.url %> ><br/></div>
+  <div class="photo">
+    <img src= <%= media_item.images.thumbnail.url %>>
+    <br/>
+  </div>
 <% end %>
