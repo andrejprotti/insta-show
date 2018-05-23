@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get '/oauth/callback', to: 'oauth#callback'
 
   get '/pictures',       to: 'pictures#show'
+
+  get '/error',          to: 'static_pages#error'
 end
