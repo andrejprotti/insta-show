@@ -1,6 +1,6 @@
 class OauthController < ApplicationController
 
-  CALLBACK_URL = ENV["CALLBACK_URL"]
+  CALLBACK_URL = ENV["CALLBACK_URL"].blank? ? "http://localhost:3000/oauth/callback" : ENV["CALLBACK_URL"]
 
   def new
     redirect_to Instagram.authorize_url(:redirect_uri => CALLBACK_URL)
