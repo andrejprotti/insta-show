@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/pictures',          to: 'pictures#show'
 
   get '/error',             to: 'static_pages#error'
+  get '/not_found',         to: 'static_pages#not_found'
 
   match '*path', via: :all, to: 'static_pages#not_found'
 end
