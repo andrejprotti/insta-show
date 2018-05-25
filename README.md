@@ -22,3 +22,7 @@ docker-compose up
 ```
 docker-compose run web bundle exec rspec --format documentation
 ```
+
+## Sample Gallery view
+
+![gallery-view](https://i.imgur.com/M7aY8Ib.png)
