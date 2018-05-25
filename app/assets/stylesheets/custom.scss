@@ -5,8 +5,6 @@ $main-color: #0077b3;
 $secondary-color: #00aaff;
 $main-font: 'Nunito', sans-serif;
 
-/* universal */
-
 body {
   padding-top: 60px;
   font-family: $main-font;
@@ -19,58 +17,6 @@ section {
 textarea {
   resize: vertical;
 }
-
-.center {
-  text-align: center;
-}
-
-.center h1 {
-  margin-bottom: 10px;
-}
-
-.navbar-inverse {
-  background-color: $main-color;
-  border: none;
-
-  .navbar-nav li { 
-    a {
-      -moz-transition: all .2s ease-in;
-      -o-transition: all .2s ease-in;
-      -webkit-transition: all .2s ease-in;
-      transition: all .2s ease-in;
-      color: white;
-    }
-  }
-
-  .navbar-nav li:hover { 
-    a {
-      color: $secondary-color;
-    }
-  }
-}
-
-.navbar-left li {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: white;
-  font-style: bold;
-  font-size: 25px;
-}
-
-.btn-primary {
-  -moz-transition: all .2s ease-in;
-  -o-transition: all .2s ease-in;
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
-  background-color: $main-color;
-  border: none;
-}
-
-.btn-primary:hover {
-  background-color: $secondary-color;
-}
-
-/* typography */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
@@ -93,156 +39,19 @@ h3 {
   font-weight: normal;
 }
 
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
 .subtext {
   font-size: 1.2em;
   font-weight: normal;
   color: #777;
 }
 
-p {
-  font-size: 1.1em;
-  line-height: 1.7em;
-}
-
-/* header */
-
-#logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-}
-
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* footer */
-
-footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
-}
-
-footer a {
-  color: #555;
-}
-
-footer a:hover {
-  color: #222;
-}
-
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
-}
-
-/* forms */
-
-.login_container {
-  width: 65%;
-  margin: 0 auto;
-
-  h1 {
-    text-align: center;
-  }
-}
-
-input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-input {
-  height: auto !important;
-}
-
-#error_explanation {
-  color: red;
-  ul {
-    color: red;
-    margin: 0 0 30px 0;
-  }
-}
-
-.field_with_errors {
-  @extend .has-error;
-  .form-control {
-    color: $state-danger-text;
-  }
-}
-
-.alert {
-  text-align: center;
-  margin: auto;
-}
-
 .row {
   margin-top: 15px;
-}
-
-.edit-item { 
-  color: lightslategrey;
-  text-decoration: none;
-
-  -moz-transition: all .2s ease-in;
-  -o-transition: all .2s ease-in;
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
-}
-
-.edit-item:hover {
-  color: dodgerblue;
-  text-decoration: none;
-}
-
-.delete-item {
-  color: lightslategrey;
-  text-decoration: none;
-  -moz-transition: all .2s ease-in;
-  -o-transition: all .2s ease-in;
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
-}
-
-.delete-item:hover {
-  color: crimson;
-}
-
-.logo {
-  height: 40px;
-  width: 40px;
-}
-
-.btn {
-  margin-top: 20px;
-}
-
-.btn-small {
-  margin-top: 0px;
-  width: 100px;
-}
-
-.navbar-title {
-  margin-top: 5px;
-  margin-left: 10px;
 }
 
 .picture-title {
@@ -255,14 +64,6 @@ input {
     top: 1%;
     left: 50%;
   }
-
-  b {
-  }
-
-  .logo-dashboard {
-    height: 16px;
-    width: 16px;
-  }
 }
 
 .project-title {
@@ -274,14 +75,6 @@ input {
     position: absolute;
     top: 10%;
     left: 50%;
-  }
-
-  b {
-  }
-
-  .logo-dashboard {
-    height: 16px;
-    width: 16px;
   }
 }
 
@@ -300,10 +93,6 @@ input {
   position: absolute;
   top: 40%;
   left: 50%;
-}
-
-.tips {
-  margin-top: 15%;
 }
 
 .photo {

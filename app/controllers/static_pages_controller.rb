@@ -4,4 +4,7 @@ class StaticPagesController < ApplicationController
 
   def error
   end
+
+  def not_found
+  end
 end
